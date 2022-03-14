@@ -1,0 +1,6 @@
+AWS_STATIC_SITE_PROFILE=production-open-cmsis-cdi-org-buildbot
+AWS_STATIC_SITE_URL=production-open-cmsis-cdi-org
+CF_DIST_ID_STATIC_LO=E2H6EAZTUR040Z
+CLOUDFRONT_ADD_SECURITY_HEADERS_ARN=arn:aws:lambda:us-east-1:749815717187:function:cloudfront-add-security-headers:1
+JEKYLL_ENV=production
+SITE_URL=www.open-cmsis-cdi.org

@@ -1,0 +1,7 @@
+search:
+  enabled: false
+  label: OpenCMSISCDI
+universal_nav: false
+brand:
+  path: /assets/images/content/cdi.svg
+  alt: Open CMSIS CDI Logo
