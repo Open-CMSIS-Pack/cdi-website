@@ -81,10 +81,7 @@ flow:
 
             Further details of this call will be published sortly.
 
-            If you are interested in joining and learning more about Open-CMSIS-CDI and our vision for a common microcontroller device interface, please contact:
-
-            * Arm: [cmsis@arm.com](mailto:cmsis@arm.com)
-            * Linaro: TODO
+            If you are interested in joining and learning more about Open-CMSIS-CDI and our vision for a common microcontroller device interface, please contact Arm via [cmsis@arm.com](mailto:cmsis@arm.com).
   - row: container_row
     sections:
       - format: title
