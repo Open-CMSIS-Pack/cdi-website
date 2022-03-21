@@ -77,7 +77,7 @@ flow:
         # style: text-center
         text_content:
           text: |-
-            Arm and Linaro are proposing to establish Open-CMSIS-CDI as a new community project, and a companion to the established [Open-CMSIS-Pack](https://www.open-cmsis-pack.org/) project. To learn more, we are inviting interested partners to join us for a first project call on **Thursday 31 March @ 15:00 UK time**.
+            Arm and Linaro are proposing to establish Open-CMSIS-CDI as a new community project, and a companion to the established [Open-CMSIS-Pack](https://www.open-cmsis-pack.org/) project. To learn more, we are inviting interested partners to join us for a first project call on **Thursday 21 April @ 15:00 UK time**.
 
             Further details of this call will be published sortly.
 
