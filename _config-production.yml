@@ -9,6 +9,6 @@ destination: www.open-cmsis-cdi.org
 # Production boolean used in layouts / includes
 production: true
 # Google Analytics
-# google_analytics:
-#   enabled: true
-#   code: G-HMVFZEVJSK
+google_analytics:
+  enabled: true
+  code: GTM-TZ6T2D2
