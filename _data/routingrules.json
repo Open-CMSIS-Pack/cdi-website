@@ -1,0 +1,3 @@
+[
+    "^(.*)$ https://github.com/Open-CMSIS-Pack/Open-CMSIS-CDI-Spec [R,L,NC]"
+]
