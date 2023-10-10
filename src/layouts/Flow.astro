@@ -1,0 +1,59 @@
+---
+// import NavBar from '../components/Nav/NavBar.astro';
+
+import type { AstroComponentFactory } from "astro/runtime/server/index.js";
+import NavBar from "@/components/nav/NavBar.astro";
+import { getCollection, getEntries } from "astro:content";
+import BaseHead from "@/components/head/BaseHead.astro";
+import Hero from "@/components/hero/Hero.astro";
+import type { CollectionEntry } from "astro:content";
+import BaseLayout from "./BaseLayout.astro";
+
+const rowComponents = {} as Record<string, { default: AstroComponentFactory }>;
+
+for (const rowData of await getCollection("rows")) {
+  rowComponents[rowData.slug] = await import(
+    rowData.data.path.replace("@/components", "../components")
+  );
+}
+
+const sectionComponents = {} as Record<
+  string,
+  { default: AstroComponentFactory }
+>;
+
+for (const sectionData of await getCollection("sections")) {
+  sectionComponents[sectionData.slug] = await import(
+    sectionData.data.path.replace("@/components", "../components")
+  );
+}
+
+type Props = { content: CollectionEntry<"pages">["data"] };
+
+const {
+  content: { title, description, flow, hero },
+} = Astro.props!;
+---
+
+<BaseLayout title={title} description={description}  >
+    <main class="prose mx-0 max-w-full">
+      {hero && <Hero {...hero} />}
+      {
+        flow!.map((row: any) => {
+          const { row: component, sections, ...rowProps } = row
+          const RowComp = rowComponents[component].default;
+          return RowComp ? (
+            <RowComp {...rowProps}>
+              {sections ? sections.map((section: any) => {
+                const {component, ...sectionProps} = section
+                const SectionComp = sectionComponents[component].default
+                console.log(SectionComp)
+                return SectionComp ? <SectionComp {...sectionProps} ><slot /></SectionComp> : <div>Not implemented</div>
+              }) : <></>}
+            </RowComp>
+          ) : <div>Not implemented</div>;
+        })
+      }
+    </main>
+    <!-- <Footer /> -->
+</BaseLayout>
