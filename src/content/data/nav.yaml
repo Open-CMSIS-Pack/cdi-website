@@ -1,7 +1,5 @@
 - label: View on Github
   url: https://github.com/linaro-astro-template
-- label: test
-  url: /test
 - label: Dropdown
   children:
     - label: Option 1

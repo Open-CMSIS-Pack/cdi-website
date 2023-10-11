@@ -1,5 +1,6 @@
 {
-  "name": "",
+  "name": "linaro-astro-template",
+  "license": "MIT",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -8,6 +9,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
+  },
+  "bin": {
+    "linaro-astro-template": "bin/install.mjs"
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.0.1",
@@ -23,6 +27,7 @@
     "vanilla-cookieconsent": "^2.9.2"
   },
   "devDependencies": {
+    "ora": "^7.0.1",
     "postcss": "^8.4.31",
     "sass": "^1.69.1"
   }

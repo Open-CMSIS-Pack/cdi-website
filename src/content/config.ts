@@ -1,10 +1,12 @@
 import { z, defineCollection, reference } from "astro:content";
+
 const pages = defineCollection({
   type: "content",
   schema: ({ image }) =>
     z.object({
       title: z.string(),
       description: z.string(),
+      image: image(),
       hero: z
         .object({
           title: z.string(),
@@ -22,15 +24,13 @@ const pages = defineCollection({
         .array(
           z.object({
             row: reference("rows"),
-            sections: z
-              .array(
-                z
-                  .object({
-                    component: reference("sections"),
-                  })
-                  .catchall(z.any())
-              )
-              .optional(),
+            sections: z.array(
+              z
+                .object({
+                  component: reference("sections"),
+                })
+                .catchall(z.any())
+            ),
           })
         )
         .optional(),
