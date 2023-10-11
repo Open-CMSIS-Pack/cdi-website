@@ -8,11 +8,11 @@ const pages = defineCollection({
       hero: z
         .object({
           title: z.string(),
-          background_image: z.string(),
+          background_image: image(),
           style: z.string(),
           inner_image: z
             .object({
-              src: z.string(),
+              src: image(),
               alt: z.string(),
             })
             .optional(),

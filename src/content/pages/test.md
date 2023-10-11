@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/Flow.astro
-slug: ""
+slug: /test/
 title: Linaro Astro Template
 description: >
   This is the Astro template for building static Linaro websites.
@@ -20,10 +20,5 @@ flow:
         title_content:
           style: font-bold
           size: h2
-          text: Welcome to linaro-astro-template
-      - component: text
-        style: text-center
-        text_content:
-          text: |-
-            This is the Astro template for building static Linaro websites.
+          text: test page
 ---

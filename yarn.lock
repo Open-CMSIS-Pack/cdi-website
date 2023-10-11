@@ -53,9 +53,9 @@
     prismjs "^1.29.0"
 
 "@astrojs/tailwind@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/@astrojs/tailwind/-/tailwind-5.0.1.tgz#f55f27c4bd58d9b53c0d2a7d8e81b2219fb5bba3"
-  integrity sha512-HzguDH+q1v8NhZIu245UtXfz5tuy4IAd/TND92z5vyftYtGdjDLdBeHhMH4Wd91/0sIPPNRz9NUfToprI636YQ==
+  version "5.0.2"
+  resolved "https://registry.npmjs.org/@astrojs/tailwind/-/tailwind-5.0.2.tgz#877c36750bc88b7e18b3ad2aa8f655d4d9769a3c"
+  integrity sha512-oXqeqmBlkQmsltrsU9nEWeXOtrZIAHW8dcmX7BCdrjzPnU6dPwWzAwhddNQ9ihKiWwsLnlbwQZIo2CDigcZlIA==
   dependencies:
     autoprefixer "^10.4.15"
     postcss "^8.4.28"
@@ -778,9 +778,9 @@ astro-seo@^0.8.0:
   integrity sha512-7gq6lhibCM8FuzZIJlbLLWP5EJ9KL2/4XqeFrAg9O6ZK2xMFxJ5ubKf+a0VJwwTu8W8Xr421CmpiXu6Hq7n/7Q==
 
 astro@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.npmjs.org/astro/-/astro-3.2.3.tgz#a6f14bf946555683ee1537a345e4a819a3aeff9b"
-  integrity sha512-1epnxQhTbfzgdmLP1yu51E8zjIOKYxZyA8hMTD4S2E+F5gMp/D81H4hekPbbq89GDxNJiHDRNZDHtS5vrU5E5w==
+  version "3.2.4"
+  resolved "https://registry.npmjs.org/astro/-/astro-3.2.4.tgz#6e6cff8913f1fe8ba715677fbcb203b464c70742"
+  integrity sha512-e95Yz6tYG6Q2SEOCzujqCHq9/HOB2z085KP1K36kGuGtu0qaa3mmnz3R9FpKM/W5SbmrNgUv4QaP207EUkMp5Q==
   dependencies:
     "@astrojs/compiler" "^2.1.0"
     "@astrojs/internal-helpers" "0.2.1"
@@ -1314,9 +1314,9 @@ eastasianwidth@^0.2.0:
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
 
 electron-to-chromium@^1.4.535:
-  version "1.4.548"
-  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.548.tgz#e695d769e0e801fa6d438b63f6bc9b80372000d6"
-  integrity sha512-R77KD6mXv37DOyKLN/eW1rGS61N6yHOfapNSX9w+y9DdPG83l9Gkuv7qkCFZ4Ta4JPhrjgQfYbv4Y3TnM1Hi2Q==
+  version "1.4.549"
+  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.549.tgz#ab223f5d85c55a9def358db163bc8cacba72df69"
+  integrity sha512-gpXfJslSi4hYDkA0mTLEpYKRv9siAgSUgZ+UWyk+J5Cttpd1ThCVwdclzIwQSclz3hYn049+M2fgrP1WpvF8xg==
 
 emoji-regex@^10.2.1:
   version "10.2.1"
@@ -2551,9 +2551,9 @@ nlcst-to-string@^3.0.0:
     "@types/nlcst" "^1.0.0"
 
 node-abi@^3.3.0:
-  version "3.48.0"
-  resolved "https://registry.npmjs.org/node-abi/-/node-abi-3.48.0.tgz#122d132ae1ac097b0d711144560b17922de026ab"
-  integrity sha512-uWR/uwQyVV2iN5+Wkf1/oQxOR9YjU7gBclJLg2qK7GDvVohcnY6LaBXKV89N79EQFyN4/e43O32yQYE5QdFYTA==
+  version "3.49.0"
+  resolved "https://registry.npmjs.org/node-abi/-/node-abi-3.49.0.tgz#b0267a615f58939886ddb8324bfbe21bfc0482a9"
+  integrity sha512-ji8IK8VT2zAQv9BeOqwnpuvJnCivxPCe2HNiPe8P1z1SDhqEFpm7GqctqTWkujb8mLfZ1PWDrjMeiq6l9TN7fA==
   dependencies:
     semver "^7.3.5"
 
@@ -3057,9 +3057,9 @@ resolve-pkg@^2.0.0:
     resolve-from "^5.0.0"
 
 resolve@^1.1.7, resolve@^1.17.0, resolve@^1.22.1, resolve@^1.22.2, resolve@^1.22.4:
-  version "1.22.6"
-  resolved "https://registry.npmjs.org/resolve/-/resolve-1.22.6.tgz#dd209739eca3aef739c626fea1b4f3c506195362"
-  integrity sha512-njhxM7mV12JfufShqGy3Rz8j11RPdLy4xi15UurGJeoHLfJpVXKdh3ueuOqbYUcDZnffr6X739JBo5LzyahEsw==
+  version "1.22.8"
+  resolved "https://registry.npmjs.org/resolve/-/resolve-1.22.8.tgz#b6c87a9f2aa06dfab52e3d70ac8cde321fa5a48d"
+  integrity sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==
   dependencies:
     is-core-module "^2.13.0"
     path-parse "^1.0.7"
@@ -3149,9 +3149,9 @@ safe-buffer@^5.0.1, safe-buffer@~5.2.0:
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
 sass@^1.69.1:
-  version "1.69.1"
-  resolved "https://registry.npmjs.org/sass/-/sass-1.69.1.tgz#659b3b04452245dcf82f731684831e990ddb0c89"
-  integrity sha512-nc969GvTVz38oqKgYYVHM/Iq7Yl33IILy5uqaH2CWSiSUmRCvw+UR7tA3845Sp4BD5ykCUimvrT3k1EjTwpVUA==
+  version "1.69.2"
+  resolved "https://registry.npmjs.org/sass/-/sass-1.69.2.tgz#8aeaeb6c1dcdbeaa26bbfeddece67c9fcd4b1d93"
+  integrity sha512-48lDtG/9OuSQZ9oNmJMUXI2QdCakAWrAGjpX/Fy6j4Og8dEAyE598x5GqCqnHkwV7+I5w8DJpqjm581q5HNh3w==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
@@ -3214,9 +3214,9 @@ shebang-regex@^3.0.0:
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 shiki@^0.14.3:
-  version "0.14.4"
-  resolved "https://registry.npmjs.org/shiki/-/shiki-0.14.4.tgz#2454969b466a5f75067d0f2fa0d7426d32881b20"
-  integrity sha512-IXCRip2IQzKwxArNNq1S+On4KPML3Yyn8Zzs/xRgcgOWIr8ntIK3IKzjFPfjy/7kt9ZMjc+FItfqHRBg8b6tNQ==
+  version "0.14.5"
+  resolved "https://registry.npmjs.org/shiki/-/shiki-0.14.5.tgz#375dd214e57eccb04f0daf35a32aa615861deb93"
+  integrity sha512-1gCAYOcmCFONmErGTrS1fjzJLA7MGZmKzrBNX7apqSwhyITJg2O102uFzXUeBxNnEkDA9vHIKLyeKq0V083vIw==
   dependencies:
     ansi-sequence-parser "^1.1.0"
     jsonc-parser "^3.2.0"
