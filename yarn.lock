@@ -793,7 +793,7 @@ astro-icon@^0.8.1:
 
 astro-navbar@^2.3.0:
   version "2.3.0"
-  resolved "https://registry.npmjs.org/astro-navbar/-/astro-navbar-2.3.0.tgz#0005221428c03be40542780966903535c9df00ef"
+  resolved "https://registry.yarnpkg.com/astro-navbar/-/astro-navbar-2.3.0.tgz#0005221428c03be40542780966903535c9df00ef"
   integrity sha512-5xnSuEuFM27FyWguZNRWv210P8J4MHCabkj+oHd94x+96peL3QRXWKpupGyHoo4Vdz4aNYe1GolcoOJRoJb7cA==
 
 astro-seo@^0.8.0:
