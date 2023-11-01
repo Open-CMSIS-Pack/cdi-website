@@ -4,7 +4,6 @@ slug: ""
 title: Linaro Astro Template
 description: >
   This is the Astro template for building static Linaro websites.
-image: "../../assets/images/hero.jpg"
 hero:
   title: Homepage Hero Text
   background_image: "../../assets/images/hero.jpg"

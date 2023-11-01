@@ -6,7 +6,6 @@ const pages = defineCollection({
     z.object({
       title: z.string(),
       description: z.string(),
-      image: image(),
       hero: z
         .object({
           title: z.string(),
