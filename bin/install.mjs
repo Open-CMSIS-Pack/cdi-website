@@ -59,6 +59,8 @@ try {
 
   const npmSpinner = ora("Installing dependencies...").start();
   await exec("yarn install");
+  await exec("npx npm-check-updates -u");
+  await exec("yarn install");
   npmSpinner.succeed();
 
   console.log("The installation is done!");
