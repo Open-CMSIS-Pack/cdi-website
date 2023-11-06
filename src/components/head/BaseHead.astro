@@ -6,14 +6,16 @@ import "@fontsource/lato";
 import "../../styles/global.scss";
 const GA_ID = import.meta.env.GA_ID;
 
-const { title = "", description = "", type = "website" } = Astro.props;
-
-const social_image = "";
+const {
+  title = "The Open-CMSIS-CDI Website",
+  description = "Open-CMSIS-CDI is a new project being proposed by Arm and Linaro to define a common device interface for microcontroller-based devices used in the Internet of Things (IoT).",
+  type = "website",
+} = Astro.props;
 ---
 
 <head>
   <title>{title}</title>
-  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/x-icon" href="/favicon.png" />
   <meta property="description" content={description} />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta charset="utf-8" />
@@ -26,15 +28,11 @@ const social_image = "";
       basic: {
         title: title,
         type: type,
-        image: social_image,
+        image: "/assets/images/social-media-image.png",
       },
     }}
     ,
     twitter={{
-      title: title,
-      description: description.slice(0, 196) + "...",
-      card: "summary_large_image",
-      image: social_image,
       creator: "@LinaroOrg",
     }}
     extend={{
@@ -46,17 +44,11 @@ const social_image = "";
       ],
       meta: [
         {
-          property: "twitter:image",
-          content: social_image,
+          name: "twitter:image",
+          content: "/assets/images/content/cdi.svg",
         },
-        {
-          property: "og:image",
-          content: social_image,
-        },
-        {
-          property: "og:description",
-          content: description,
-        },
+        { name: "twitter:title", content: title },
+        { name: "twitter:description", content: description },
       ],
     }}
   />

@@ -38,7 +38,7 @@ for (const sectionData of await getEntries(flow.map((row) => row.sections!.map((
 ---
 
 <BaseLayout title={title} description={description}  >
-    <main class="prose mx-0 max-w-full">
+    <main class="prose mx-0 max-w-full md-content ">
       {hero && <Hero {...hero} />}
       {
         flow?.map((row: any) => {
@@ -60,3 +60,9 @@ for (const sectionData of await getEntries(flow.map((row) => row.sections!.map((
     </main>
     <!-- <Footer /> -->
 </BaseLayout>
+<style is:global lang="scss">
+  .md-content {
+     word-wrap: break-word;
+ 
+}
+</style>

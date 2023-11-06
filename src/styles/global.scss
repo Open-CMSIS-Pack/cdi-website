@@ -2,23 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
- html {
-	font-family: "Lato", sans-serif
- }
+  html {
+    font-family: "Lato", sans-serif;
+  }
+  //   a {
+  //     @apply text-linarogreen;
+  //   }
+  .md-content {
+    a {
+      color: #98cc33;
+      text-decoration: none;
+    }
+  }
 }
 
-
 @layer utilities {
-	.nav-hover {
-
-		:before {
-			@apply w-0 lg:bg-accent content-[""] bottom-0 h-1 block absolute left-[50%] duration-150 
-		}
-		:before:hover {
-				@apply w-full left-0
-		}
-
-	}
+  .nav-hover {
+    :before {
+      @apply w-0 lg:bg-accent content-[""] bottom-0 h-1 block absolute left-[50%] duration-150;
+    }
+    :before:hover {
+      @apply w-full left-0;
+    }
+  }
 }
