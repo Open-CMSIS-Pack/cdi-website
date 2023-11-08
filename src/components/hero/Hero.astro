@@ -5,7 +5,7 @@ import type { CollectionEntry } from "astro:content";
 type Props = CollectionEntry<"pages">["data"]["hero"];
 
 console.log(Astro.props);
-const { title, background_image, style } = Astro.props!;
+const { title, description, background_image, style } = Astro.props!;
 ---
 
 <div class="h-full mb-4">
@@ -13,10 +13,21 @@ const { title, background_image, style } = Astro.props!;
     class:list={[
       style,
       "hero-background",
-      "flex opacity-90 flex-col items-center text-white justify-around px-5 h-[350px] w-full",
+      "flex flex-col items-center text-white justify-around px-5 h-[350px] w-full",
     ]}
   >
-    <h1 class="text-inherit text-3xl lg:text-5xl text-left">{title}</h1>
+    <div class="flex flex-col mx-auto">
+      <h1 class="text-inherit text-3xl lg:text-5xl text-center">{title}</h1>
+      {
+        description && (
+          <div>
+            <p class="font-light text-xl text-center mt-0 mb-5">
+              {description}
+            </p>
+          </div>
+        )
+      }
+    </div>
   </div>
 </div>
 <style
